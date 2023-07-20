@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
-        
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
     </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
@@ -19,14 +22,25 @@
                 Olá! Sou Maken da Rosa, desenvolvedor Front-end com especialidade em <strong>React, HTML e CSS</strong>. Ajudo pequenos negócios e designers a colocarem em prática boas ideias e projetos. Vamos conversar?
             </p>
             <div class="apresentacao__conteudo__links">
-                <a class="apresentacao__conteudo__links__link" href="https://www.linkedin.com/in/maken-da-rosa/">LinkedIn</a>
-                <a class="apresentacao__conteudo__links__link" href="https://github.com/MakenRosa">Github</a>
+                <h2 class="apresentacao__conteudo__links_subtitulo">Acesse minhas redes</h2>
+                <a class="apresentacao__conteudo__links__link" href="https://www.linkedin.com/in/maken-da-rosa/">
+                    <img src="assets/linkedin.png" alt="">
+                    LinkedIn
+                </a>
+                <a class="apresentacao__conteudo__links__link" href="https://github.com/MakenRosa">
+                    <img src="assets/github.png" alt="">
+                    Github
+                </a>
             </div>
         </section>
-        <div class="apresentacao__img"><img src="maken.jpeg" alt="Maken da Rosa"></div>
+        <div class="apresentacao__img">
+            <img src="maken.jpeg" alt="Maken da Rosa">
+        </div>
     </main>
-    <footer>
-
+    <footer class="rodape"
+        <p>
+            Desenvolvido por Maken da Rosa
+        </p>
     </footer>
 </body>
 </html>
