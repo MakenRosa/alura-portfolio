@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    --cor-primaria: #000000;
-    --cor-secundaria: #f6f6f6;
-    --cor-terciaria: rgb(247, 68, 68);
-    --cor-hover: #272727;
+    --primary-color: #000000;
+    --secondary-color: #f6f6f6;
+    --tertiary-color: rgb(247, 68, 68);
+    --hover-color: #272727;
 
-    --fonte-primaria: 'krona one', sans-serif;
-    --fonte-secundaria: 'Montserrat', sans-serif;
+    --primary-font: 'krona one', sans-serif;
+    --secondary-font: 'Montserrat', sans-serif;
 }
 
 * {
@@ -16,30 +16,30 @@
 }
 
 body {
-    background-color: var(--cor-primaria);
-    color: var(--cor-secundaria);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     box-sizing: border-box;
 }
 
-.cabecalho {
+.header {
     padding: 2% 0 0 15%;
 }
 
-.cabecalho__menu {
+.header__menu {
     display: flex;  
     gap: 80px;
 }
 
-.cabecalho__menu__link {
-    font-family: var(--fonte-secundaria), sans-serif;
+.header__menu__link {
+    font-family: var(--secondary-font), sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--cor-terciaria);
+    color: var(--tertiary-color);
     cursor: pointer;
     text-decoration: none;
 }
 
-.apresentacao {
+.presentation {
     padding: 7% 15%;
     display: flex;
     align-items: center;
@@ -47,28 +47,28 @@ body {
     gap: 40px;
 }
 
-.apresentacao__conteudo {
+.presentation__content {
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 82px;
 }
 
-.apresentacao__conteudo__titulo {
+.presentation__content__title {
     font-size: 2.25rem;
-    font-family: var(--fonte-primaria), sans-serif;
+    font-family: var(--primary-font), sans-serif;
 }
 
-.titulo-destaque {
+.title-highlight {
     color: rgb(199, 44, 44);
 }
 
-.apresentacao__conteudo__texto {
+.presentation__content__text {
     font-size: 1.5rem;
-    font-family: var(--fonte-secundaria), sans-serif;
+    font-family: var(--secondary-font), sans-serif;
 }
 
-.apresentacao__conteudo__links {
+.presentation__content__links {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -76,65 +76,65 @@ body {
     gap: 32px;
 }
 
-.apresentacao__conteudo__links_subtitulo {
+.presentation__content__links__subtitle {
     font-size: 1.5rem;
-    font-family: var(--fonte-primaria), sans-serif;
+    font-family: var(--primary-font), sans-serif;
     font-weight: 400;
 }
 
-.apresentacao__conteudo__links__link {
-    /* background-color: var(--cor-terciaria); */
+.presentation__content__links__link {
+    /* background-color: var(--tertiary-color); */
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
-    border: 2px solid var(--cor-terciaria);
+    border: 2px solid var(--tertiary-color);
     width: 60%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
-    font-family: var(--fonte-secundaria), sans-serif;
+    font-family: var(--secondary-font), sans-serif;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
     color: #f6f6f6;
 }
 
-.apresentacao__conteudo__links__link:hover {
-    background-color: var(--cor-hover);
+.presentation__content__links__link:hover {
+    background-color: var(--hover-color);
     transition: 0.15s;
     transform: scale(1.02) translateY(-2px);
 }
 
-.apresentacao__img {
+.presentation__img {
     width: 50%;   
 }
 
-.rodape {
+.footer {
     padding: 24px;
-    color: var(--cor-primaria);
-    background-color: var(--cor-terciaria);
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
     text-align: center;
-    font-family: var(--fonte-secundaria), sans-serif;
+    font-family: var(--secondary-font), sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
 }
 
 @media (max-width: 1200px) {
-    .cabecalho {
+    .header {
         padding: 10%;
     }
 
-    .cabecalho__menu {
+    .header__menu {
         justify-content: center;
     }
     
-    .apresentacao {
+    .presentation {
         flex-direction: column-reverse;
         padding: 5%;
     }
 
-    .apresentacao__conteudo {
+    .presentation__content {
         width: auto;
     }
 }
