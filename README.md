@@ -42,7 +42,7 @@ Neste curso, foram abordados vários tópicos importantes relacionados à respon
 - Entendimento da diferença entre medidas absolutas e relativas
 - Publicação de seu projeto finalizado na web e mostrado para todo o mundo
 
-**[Acesse aqui o Alura-Portfólio pelo GithubPages](https://makenrosa.github.io/alura-portfolio/index.html)**
+**[Acesse aqui o Portfólio pelo GithubPages](https://makenrosa.github.io/portfolio/index.html)**
 
 ## Como clonar o repositório
 
@@ -57,7 +57,7 @@ Siga as etapas abaixo para clonar este repositório e executar o projeto em sua 
 4. Execute o seguinte comando para clonar o repositório:
 
 ```bash
-git clone https://github.com/makenrosa/alura-portfolio.git
+git clone https://github.com/makenrosa/portfolio.git
 ```
 
 5. Após o termino do processo de clonagem, você terá uma cópia local do repositório em seu computador.
@@ -72,7 +72,7 @@ git clone https://github.com/makenrosa/alura-portfolio.git
 
 A estrutura do projeto está da seguinte maneira:
 
-```Alura-Portfolio/  
+```Portfolio/  
 ├── assets/
 │   ├── github.png
 │   ├── instagram.png
@@ -106,6 +106,6 @@ Essa estrutura de diretórios permite um gerenciamento mais fácil dos recursos 
 
 Este é um projeto desenvolvido como parte de um curso da Alura e, portanto, não é aberto para contribuições externas no momento. No entanto, sinta-se à vontade para fazer um fork deste repositório e personalizá-lo conforme suas necessidades.
 
-Se você encontrar algum problema ou tiver sugestões, sinta-se à vontade para abrir uma [issue](https://github.com/makenrosa/alura-portfolio/issues) neste repositório.
+Se você encontrar algum problema ou tiver sugestões, sinta-se à vontade para abrir uma [issue](https://github.com/makenrosa/portfolio/issues) neste repositório.
 
 Aproveite o projeto! Se tiver alguma dúvida, não hesite em entrar em contato.
